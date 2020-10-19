@@ -1,0 +1,29 @@
+body {
+  color: grey;
+}
+
+div {
+  border: 1px black solid;
+}
+
+#conteneur {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.element {
+  width: 250px;
+  height: 200px;
+}
+
+.element:nth-child(1) {
+  background-color: orange;
+}
+
+.element:nth-child(2) {
+  background-color: blue;
+}
+
+.element:nth-child(3) {
+  background-color: greenyellow;
+}

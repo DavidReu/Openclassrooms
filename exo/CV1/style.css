@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Arima";
+  src: url(font/arima/ArimaKoshi-Bold.otf) format("opentype"),
+    url(font/arima/ArimaKoshi-ExtraBold.otf) format("opentype"),
+    url(font/arima/ArimaKoshi-ExtraLight.otf) format("opentype"),
+    url(font/arima/ArimaKoshi-Light.otf) format("opentype"),
+    url(font/arima/ArimaKoshi-Medium.otf) format("opentype"),
+    url(font/arima/ArimaKoshi-Regular.otf) format("opentype"),
+    url(font/arima/ArimaKoshi-SemiBold.otf) format("opentype"),
+    url(font/arima/ArimaKoshi-Thin.otf) format("opentype"),
+    url(font/arima/ArimaMadurai-Bold.otf) format("opentype"),
+    url(font/arima/ArimaMadurai-ExtraBold.otf) format("opentype"),
+    url(font/arima/ArimaMadurai-ExtraLight.otf) format("opentype"),
+    url(font/arima/ArimaMadurai-Light.otf) format("opentype"),
+    url(font/arima/ArimaMadurai-Medium.otf) format("opentype"),
+    url(font/arima/ArimaMadurai-Regular.otf) format("opentype"),
+    url(font/arima/ArimaMadurai-SemiBold.otf) format("opentype"),
+    url(font/arima/ArimaMadurai-Thin.otf) format("opentype");
+}
+
+body {
+  font-family: "Arima", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  background-image: url(image/264.jpg);
+  color: white;
+  font-size: 1.2em;
+}
+
+.me {
+  /* en-tête comprenant Prénon Nom et niveau actuel en développement web*/
+  text-align: center;
+  border: 2px solid;
+  color: darkgoldenrod;
+  border-radius: 10px;
+}
+
+h1 {
+  color: darkgoldenrod;
+  font-size: 1.9em;
+  text-shadow: 5px 5px black;
+}
+
+img {
+  float: right;
+  border: 1px solid darkgoldenrod;
+  border-radius: 5px;
+}
+
+h2 {
+  clear: both;
+  text-decoration: underline;
+  color: darkgoldenrod;
+  font-size: 1.7em;
+}
+
+span {
+  font-weight: bold;
+}
